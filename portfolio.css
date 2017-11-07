@@ -1,0 +1,10 @@
+body {
+   
+    width: 100%;
+    background-color: #808080;
+    color: #fff;
+}
+
+#name {
+    float: right;
+}
