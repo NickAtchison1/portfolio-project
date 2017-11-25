@@ -13,13 +13,22 @@ body {
     width: 100vw;
     
     background-color: #fff;
-    color: #808080;
+    color: #db6262;
+}
+picture {
+    float: right;
+    padding-right: 20%;
+}
+#featuredwork {
+ 
 }
 
 #mainimage {
    
     width: 50vw;
     height: 60vh;
+  
+ 
 }
 
 section {
@@ -27,15 +36,18 @@ section {
     height: 30vh;
     background-color: #fff;
     color: #808080;
+    
+    
 }
 
 aside {
     float: left;
-    width: 70vh;
+    width: 50vh;
+    
 }
 
  li {
-     height: 35vh;
+     height: 20vh;
  }
 h3, p {
     float: right;
