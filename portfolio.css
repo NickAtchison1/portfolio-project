@@ -31,11 +31,28 @@ picture {
  
 }
 
+#pythonimage {
+    
+     width: 10vw;
+     height: 10vh;
+   
+  
+ }
+
+ .asideimage {
+    
+     width: 10vw;
+     height: 15vh;
+   
+  
+ }
+
 section {
     width: 100vw;
     height: 30vh;
     background-color: #fff;
     color: #808080;
+    display: inline-block;
     
     
 }
@@ -46,11 +63,17 @@ aside {
     
 }
 
+ul {
+    list-style-type: none;
+}
+
  li {
      height: 20vh;
+     
  }
-h3, p {
+h2, p {
     float: right;
+    display: block;
 }
 
 footer {
