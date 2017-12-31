@@ -2,8 +2,8 @@ body {
    
     height: 100%;
     width: 100%;
-    background-color: #808080;
-    color: #fff;
+    background-color: #fff;
+   
 }
 
 #content {
@@ -15,31 +15,39 @@ body {
     background-color: #fff;
     color: #db6262;
 }
-picture {
+#center{
     float: right;
     padding-right: 20%;
+
 }
-#featuredwork {
+.featuredwork {
+    display: inline-block;
+    width: 15vww;
+    height: 20vw;
+    margin: 30px;
  
 }
 
 #mainimage {
    
-    width: 50vw;
-    height: 60vh;
+    width: 55vw;
+    height: 68vh;
   
  
 }
-
+/*
 #pythonimage {
     
-     width: 10vw;
-     height: 10vh;
+     width: 20vw;
+     height: 18vh;
    
   
  }
+ */
 
  .asideimage {
+
+   display: block;
     
      width: 10vw;
      height: 15vh;
@@ -73,7 +81,7 @@ ul {
  }
 h2, p {
     float: right;
-    display: block;
+    display: inline-block;
 }
 
 footer {
