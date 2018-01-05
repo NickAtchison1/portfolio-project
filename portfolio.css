@@ -6,32 +6,39 @@ body {
    
 }
 
-#content {
+
+
+.content {
 
     /*https://stackoverflow.com/questions/15843391/div-height-set-as-percentage-of-screen*/
-    height: 100vh;
-    width: 100vw;
-    
+ 
+  
     background-color: #fff;
     color: #db6262;
-}
+    margin:50px 10px 5px 5px;
+   
+}  
 #center{
-    float: right;
-    padding-right: 20%;
+  
 
 }
 .featuredwork {
+ 
     display: inline-block;
-    width: 15vww;
-    height: 20vw;
+   
     margin: 30px;
+    margin-top: 1px;
  
 }
 
 #mainimage {
    
-    width: 55vw;
-    height: 68vh;
+width: 52vw;
+height: 70vh;
+float: right;
+
+
+
   
  
 }
@@ -55,14 +62,42 @@ body {
   
  }
 
-section {
-    width: 100vw;
-    height: 30vh;
-    background-color: #fff;
-    color: #808080;
-    display: inline-block;
+
+.frontend p {
     
+   display: block;
+    float: right;
+ 
+     
+      
+       
+       
+   }
+   .frontend b {
     
+   display: block;
+    float: right;
+ 
+     
+      
+       
+       
+   }
+   .frontend big {
+    
+   display: block;
+    float: right;
+ 
+     
+      
+       
+       
+   }
+.frontend {
+    margin-top: 5px;
+    margin-right:10px;
+    margin-left: 25px;
+    margin-bottom: 5px;
 }
 
 aside {
@@ -80,7 +115,7 @@ ul {
      
  }
 h2, p {
-    float: right;
+
     display: inline-block;
 }
 
