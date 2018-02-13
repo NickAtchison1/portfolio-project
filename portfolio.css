@@ -8,20 +8,23 @@ body {
     
     display: flex;
     justify-content: center;
-    flex-flow: row-reverse;
-    flex-wrap: nowrap;
+    flex-flow: row-reverse nowrap;
     background-color: #fff;
     color: #db6262;
     margin:50px 5px 5px 1px;
 }  
 
 .featuredwork {
+    
     margin-top: 30px;
 }
 
+
 .featuredworkimg {
     display: inline-flex;
-    margin-top: 30px;
+    align-items: center;
+    text-align: center;
+  
 }
 
 .mainimage { 
@@ -35,21 +38,10 @@ body {
    height: 15vh;
  }
 
-.frontend p {
-    float: right;   
- }
-
-.frontend b {
-    float: right;       
- }
-
-.frontend big { 
-   
-   float: right;
- }
-
 .frontend {
-    margin: 5px 10px 25px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 aside {
@@ -67,13 +59,12 @@ ul {
      height: 20vh;    
  }
 
-h2, p {
-
-    display: inline-block;
-}
-
 footer {
     height: 100vh;
     width: 100vw;
     color: #fff;
+}
+
+@-ms-viewport {
+    width: device-width;    
 }
