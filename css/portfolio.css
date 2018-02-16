@@ -42,11 +42,6 @@ a {
    height: 15vh;
  }
 
- header {
-     display: flex;
- }
-
-
 
  .asidetext {
      justify-content: center;
@@ -54,10 +49,31 @@ a {
 
 
 .frontend {
-    justify-content: flex-end;
+    
+    display: flex; 
 }
 
+.logoimg {
+    justify-content: flex-start;
+    align-items: baseline;
+}
+.myname {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: stretch;
+   
+    
+}
 
+.myname h2,
+.myname p { 
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    color: red;
+}
+   
 aside {
     display: flex;
     width: 50vh; 
