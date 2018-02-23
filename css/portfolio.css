@@ -15,20 +15,15 @@ body {
 }  
 
 .featuredwork {
-    margin-top: 30px;
+   display: inline-flex;
+   justify-content: space-between;
+   justify-content: space-around;
 }
 
 
-.featuredworkimg {
-    display: inline-flex;
-    margin-left: 50px;
-    margin-right:5px;
-}
 
-a {
-  justify-content: flex-start;
-  align-items: baseline;
-}
+  
+
 
 .mainimage { 
     /*https://stackoverflow.com/questions/15843391/div-height-set-as-percentage-of-screen*/
@@ -47,32 +42,30 @@ a {
      justify-content: center;
  }
 
+ header {
+    display: flex; 
+    justify-content: flex-start;
+    
+
+ }
 
 .frontend {
-    
-    display: flex; 
-}
-
-.logoimg {
+    display: inline-flex;
     justify-content: flex-start;
-    align-items: baseline;
-}
-.myname {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: stretch;
-   
-    
+    justify-content: space-between;
 }
 
-.myname h2,
-.myname p { 
-    flex-direction: column;
+
+.frontend h1,
+.frontend p {
+    display: flex;
     justify-content: flex-end;
-    align-items: center;
-    color: red;
+    flex-direction: column;
 }
+
+
+
+
    
 aside {
     display: flex;
