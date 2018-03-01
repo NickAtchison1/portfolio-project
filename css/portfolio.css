@@ -42,26 +42,15 @@ body {
      justify-content: center;
  }
 
- header {
-    display: flex; 
-    justify-content: flex-start;
-    
-
- }
 
 .frontend {
-    display: inline-flex;
-    justify-content: flex-start;
-    justify-content: space-between;
-}
-
-
-.frontend h1,
-.frontend p {
     display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
+    justify-content: center;
+   flex-wrap: wrap-reverse;
+
 }
+
+
 
 
 
