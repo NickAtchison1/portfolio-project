@@ -3,12 +3,21 @@ body {
     width: 100%;
     background-color: #fff;
 }
+.container {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
 
 .content {
     
     display: flex;
-    justify-content: center;
-    flex-flow: row-reverse nowrap;
+    flex-flow: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
     background-color: #fff;
     color: #db6262;
     margin:50px 5px 5px 1px;
