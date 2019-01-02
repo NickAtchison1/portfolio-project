@@ -1,6 +1,5 @@
 body {
 	height: 100%;
-	width: 100%;
 	background-color: #fff;
 }
 .container {
@@ -8,12 +7,14 @@ body {
 	flex-flow: column;
 	justify-content: flex-start;
 	align-items: center;
+	width: 97%;
 }
 .content {
 	display: flex;
 	flex-flow: row-reverse nowrap;
 	background-color: #fff;
 	color: #db6262;
+	
 }
 aside {
 	display: flex;
@@ -25,7 +26,7 @@ aside {
 }
 .mainimage {
 	/*https://stackoverflow.com/questions/15843391/div-height-set-as-percentage-of-screen*/
-	width: 55vw;
+	width: 50vw;
 	height: 100vh;
 }
 .featuredwork {
