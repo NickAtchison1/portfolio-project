@@ -97,6 +97,7 @@ footer {
 		flex-flow: row-reverse;
 		background-color: #fff;
 		color: #db6262;
+		overflow-x: hidden;
 	}
 	aside {
 		display: flex;
