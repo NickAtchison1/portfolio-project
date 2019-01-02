@@ -1,5 +1,6 @@
 body {
 	height: 100%;
+	overflow-x: hidden;
 	background-color: #fff;
 }
 .container {
@@ -7,7 +8,6 @@ body {
 	flex-flow: column;
 	justify-content: flex-start;
 	align-items: center;
-	width: 92%;
 }
 .content {
 	display: flex;
