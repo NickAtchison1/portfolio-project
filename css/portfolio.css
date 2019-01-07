@@ -25,7 +25,6 @@ aside {
 	flex-flow: column;
 	justify-content: flex-start;
 	align-items: stretch;
-	align-content: flex-start;
 	padding-right: 5%;
 	padding-left: 10%;
 }
@@ -36,8 +35,17 @@ aside {
 }
 .logoimg {
 	/*https://stackoverflow.com/questions/15843391/div-height-set-as-percentage-of-screen*/
-	width: 40vw;
+	width: 20vw;
 	height: 20vh;
+}
+.pyimg {
+	width: 50vw;
+	height: auto;
+}
+
+.gitimg {
+	
+	height: auto;
 }
 .featuredwork {
 	display: flex;
@@ -87,13 +95,14 @@ header {
 	justify-content: stretch;
 	align-items: baseline;
 	display: grid;
-	grid-template-columns: 2fr 1fr 1fr;
+	grid-template-columns: 2fr 1fr 1fr;	
 }
-h1, p {
+ h1, h2 {
 	display: flex;
 	flex-flow: column wrap;
-	justify-content: flex-start;
-	align-items: stretch;
+	justify-content: stretch;
+	align-items: baseline;
+	
 }
 footer {
 	height: 100vh;
@@ -103,9 +112,11 @@ footer {
 @media only screen and (max-width: 360px) {
 	.container {
 		display: flex;
-		flex-flow: row wrap;
+		flex-flow: column;
 		justify-content: flex-start;
 		align-items: center;
+		overflow-x: hidden;
+		display: grid;
 	}
 	header {
 		display: flex;
@@ -146,14 +157,14 @@ footer {
 		align-items: stretch;
 		align-content: space-between;
 	}
-	h2 {
+	/* strong {
 		display: flex;
 		flex-flow: column wrap;
 		justify-content: flex-start;
 		align-items: stretch;
 		align-content: space-around;
 		padding-top: 5%;
-	}
+	} */
 	#pyarticle {
 		display: flex;
 		flex-flow: column wrap;
@@ -173,6 +184,14 @@ footer {
 	}
 }
 @media only screen and (min-width: 361px) and (max-width: 1024px) {
+	.container {
+		display: flex;
+		flex-flow: column;
+		justify-content: flex-start;
+		align-items: center;
+		overflow-x: hidden;
+		display: grid;
+	}
 	.asideimage {
 		width: 28vw;
 		height: 32vw;
