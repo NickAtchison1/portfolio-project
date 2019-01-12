@@ -39,12 +39,12 @@ aside {
 	height: 20vh;
 }
 .pyimg {
-	width: 50vw;
+	width: 30vw;
 	height: auto;
 }
 
 .gitimg {
-	
+	width: 30vw;
 	height: auto;
 }
 .featuredwork {
@@ -112,11 +112,12 @@ footer {
 @media only screen and (max-width: 360px) {
 	.container {
 		display: flex;
-		flex-flow: column;
+		flex-flow: row;
 		justify-content: flex-start;
 		align-items: center;
 		overflow-x: hidden;
 		display: grid;
+		grid-template-rows: 1fr 3fr;	
 	}
 	header {
 		display: flex;
@@ -126,17 +127,16 @@ footer {
 	}
 	.content {
 		display: flex;
-		flex-flow: row-reverse;
+		flex-flow: row;
 		background-color: #fff;
 		color: #db6262;
 		overflow-x: hidden;
 	}
 	aside {
 		display: flex;
-		flex-flow: column wrap;
-		justify-content: flex-end;
+		flex-flow: column;
+		justify-content: flex-start;
 		align-items: stretch;
-		align-content: space-between;
 		padding-right: 5%;
 	}
 	.asideimage {
@@ -147,7 +147,7 @@ footer {
 	.mainimage {
 		/*https://stackoverflow.com/questions/15843391/div-height-set-as-percentage-of-screen*/
 		width: 55vw;
-		height: 100vh;
+		height: auto;
 		padding-left: 5%;
 	}
 	.featuredwork {
@@ -157,14 +157,6 @@ footer {
 		align-items: stretch;
 		align-content: space-between;
 	}
-	/* strong {
-		display: flex;
-		flex-flow: column wrap;
-		justify-content: flex-start;
-		align-items: stretch;
-		align-content: space-around;
-		padding-top: 5%;
-	} */
 	#pyarticle {
 		display: flex;
 		flex-flow: column wrap;
