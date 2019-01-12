@@ -135,18 +135,19 @@ footer {
 		flex-flow: column;
 		justify-content: flex-start;
 		align-items: stretch;
+		align-content: space-around;
+		padding-left: 4%;
 		padding-right: 5%;
 	}
 	.asideimage {
-		width: 35vw;
-		height: auto;
-		padding: right 5%;
+		width: 40vw;
+		height: auto;	
 	}
 	.mainimage {
 		/*https://stackoverflow.com/questions/15843391/div-height-set-as-percentage-of-screen*/
-		width: 44vw;
+		width: 40vw;
 		height: auto;
-		padding-right: 5%;
+		
 	}
 	.featuredwork {
 		display: flex;
