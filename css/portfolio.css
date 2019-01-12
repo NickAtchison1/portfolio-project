@@ -139,6 +139,11 @@ footer {
 		padding-left: 4%;
 		padding-right: 5%;
 	}
+	.logoimg {
+		/*https://stackoverflow.com/questions/15843391/div-height-set-as-percentage-of-screen*/
+		width: 40vw;
+		height: 20vh;
+	}
 	.asideimage {
 		width: 40vw;
 		height: auto;	
